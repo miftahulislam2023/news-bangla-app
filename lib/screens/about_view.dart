@@ -6,7 +6,7 @@ class AboutView extends StatelessWidget {
 
   // Function to launch LinkedIn profile URL using the updated API
   Future<void> _launchLinkedIn() async {
-    final Uri url = Uri.parse('https://www.linkedin.com/miftahulislambd');
+    final Uri url = Uri.parse('https://www.linkedin.com/in/miftahulislambd');
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
       throw 'Could not launch $url';
     }
